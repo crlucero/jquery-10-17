@@ -4,8 +4,8 @@ $(document).ready(function() {
             var upperCase = textInput.toUpperCase();
     
           $("#shoutBack").append(upperCase);
-  
-      $("#shoutBack").show();
+    
+    
       event.preventDefault();
     });
   });
