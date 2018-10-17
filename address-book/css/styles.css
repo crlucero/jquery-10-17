@@ -1,0 +1,11 @@
+ul {
+    font-size: 1.3rem;
+}
+
+li {
+    display: none;
+}
+
+li.opened {
+    display: block;
+}
