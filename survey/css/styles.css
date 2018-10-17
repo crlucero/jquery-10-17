@@ -1,0 +1,22 @@
+#name {
+    max-width: 300px;
+}
+
+#music.form-control {
+    max-width: 150px;
+}
+
+#born.form-control {
+    max-width: 180px;
+}
+
+#color.form-control {
+    max-width: 150px;
+    min-height: 150px;
+    
+}
+
+.form-group {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}

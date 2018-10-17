@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Survey</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Please fill out this survey</h1>
+            <form>
+                <div class="form-group">
+                    <label for="name">What is your name?</label>
+                    <input id="name" class="form-control" type="text">
+                </div>
+
+                <div class="form-group">
+                        <div class="radio">
+                            <label>What is your favorite type of ice cream?</label> <br>
+                                <label>
+                                  <input type="radio" name="flavor" value="chocolate" checked>
+                                  Chocolate
+                                </label>
+                              </div>
+                              <div class="radio">
+                                <label>
+                                  <input type="radio" name="flavor" value="vanilla">
+                                  Vanilla
+                                </label>
+                              </div>
+                              <div class="radio">
+                                <label>
+                                  <input type="radio" name="flavor" value="cookiesandcream">
+                                  Cookies & Cream
+                                </label>
+                              </div>
+                </div>
+
+                <div class="form-group">
+                        <label for="music">What is your favorite type of music?:</label>
+                        <select class="form-control" id="music">
+                                <option value="Hip Hop">Hip Hop</option>
+                                <option value="Rock">Rock</option>
+                                <option value="Country">Country</option>
+                                <option value="EDM">EDM</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                            <label for="born">Date of birth:</label>
+                            <input id="born" class="form-control" type="date">
+                    </div>
+
+                    <div class="form-group">
+                            <label for="color">What is your favorite color?</label>
+                            <input id="color" class="form-control" type="color">
+                          </div>
+
+                          <button type="submit" class="btn btn-primary">Thanks for filling out our survey!</button>
+            </form>
+    
+
+
+    </div>
+    
+</body>
+</html>
