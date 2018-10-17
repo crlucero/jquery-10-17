@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Order Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Fill in the blanks for your pizza order!</h1>
+        <div>
+          <form id="form">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input id="name" class="form-control" type="text">
+            </div>
+
+
+            <div class="form-group">
+                    <label for="description">Address:</label>
+                    <textarea id="address" class="form-control" rows="6" type="text"></textarea>
+                  </div>
+
+                  <div class="form-group">
+                        <div class="radio">
+                            <label>Quantity: </label> <br>
+                                <label>
+                                  <input type="radio" name="quantity" value="1" checked>
+                                  1
+                                </label>
+                              </div>
+                              <div class="radio">
+                                <label>
+                                  <input type="radio" name="quantity" value="2">
+                                  2
+                                </label>
+                              </div>
+                              <div class="radio">
+                                <label>
+                                  <input type="radio" name="quantity" value="3">
+                                  3
+                                </label>
+                              </div>
+                </div>
+    
+
+            <div class="form-group">
+                <label for="type">Type:</label>
+                <select class="form-control" id="type">
+                        <option value="cheese">Cheese</option>
+                        <option value="pepperoni">Pepperoni</option>
+                        <option value="hawaiian">Hawaiian</option>
+                        <option value="supreme">Supreme</option>
+                </select>
+            </div>
+
+            
+    
+  
+           
+            <button type="submit" class="btn btn-primary btn-lg">Order Now!</button>
+          </form>
+        </div>
+
+        <div id="details">
+            <p><span id="nameOutput"></span>, Thank you for your order! </p>
+            <p>You ordered <span id="quantityOutput"></span>, <span id="typeOutput"></span> pizzas.</p>
+            <p>your total: is $<span id="totalOutput"></span> at $10 per pizza.</p>
+            <p>We will ship your order to your address at:   <span id="addressOutput"></span></p>
+                <p>Thank you,</p>
+
+            </p>
+
+        </div>
+
+  
+
+        </div>
+  
+</body>
+</html>
